@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Perto do coração selvagem",
+        "author": "Clarice Lispector",
+        "category": "Romance Brasileiro",
+        "inStock": true
+    },
+    {
+        "id": 2,
+        "title": "Mulheres que correm com os lobos",
+        "author": "Clarissa Pinkola Estés",
+        "category": "Saúde, boa forma e dieta",
+        "inStock": false
+    },
+    {
+        "id": 3,
+        "title": "O conto da aia",
+        "author": "Margaret Atwood",
+        "category": "Ficção de Gênero",
+        "inStock": true
+    },
+    {
+        "id": 4,
+        "title": "Pequeno manual antirracista",
+        "author": "Djamila Ribeiro",
+        "category": "Política e ciências sociais",
+        "inStock": true
+    },
+    {
+        "id": 5,
+        "title": "Comunicação não-violenta: técnicas para aprimorar relacionamentos pessoais e profissionais",
+        "author": "Marshall Rosenberg",
+        "category": "Saúde, boa forma e dieta",
+        "inStock": false
+    },
+    {
+        "id": 6,
+        "title": "Uma breve história do tempo",
+        "author": "Stephen Hawking",
+        "category": "Física",
+        "inStock": true
+    },
+    {
+        "id": 7,
+        "title": "O que o sol faz com as flores",
+        "author": "rupi kaur",
+        "category": "Poesia",
+        "inStock": true
+    },
+    {
+        "id": 8,
+        "title": "Eloquent JavaScript: a modern introduction to programming",
+        "author": "Marijn Haverbeke",
+        "category": "Programação",
+        "inStock": false
+    },
+    {
+        "id": 9,
+        "title": "História da alimentação no Brasil",
+        "author": "Luís da Câmara Cascudo",
+        "category": "Antropologia política e ciências sociais",
+        "inStock": false
+    },
+    {
+        "id": 10,
+        "title": "Cem anos de solidão",
+        "author": "Gabriel García Márquez",
+        "category": "Clássicos de Ficção",
+        "inStock": true
+    }
+]
