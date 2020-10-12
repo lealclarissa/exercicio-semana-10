@@ -3,70 +3,70 @@
         "id": 1,
         "title": "Perto do coração selvagem",
         "author": "Clarice Lispector",
-        "category": "Romance Brasileiro",
+        "category": "romance",
         "inStock": true
     },
     {
         "id": 2,
         "title": "Mulheres que correm com os lobos",
         "author": "Clarissa Pinkola Estés",
-        "category": "Saúde, boa forma e dieta",
+        "category": "saude",
         "inStock": false
     },
     {
         "id": 3,
         "title": "O conto da aia",
         "author": "Margaret Atwood",
-        "category": "Ficção de Gênero",
+        "category": "ficcao",
         "inStock": true
     },
     {
         "id": 4,
         "title": "Pequeno manual antirracista",
         "author": "Djamila Ribeiro",
-        "category": "Política e ciências sociais",
+        "category": "politica",
         "inStock": true
     },
     {
         "id": 5,
         "title": "Comunicação não-violenta: técnicas para aprimorar relacionamentos pessoais e profissionais",
         "author": "Marshall Rosenberg",
-        "category": "Saúde, boa forma e dieta",
+        "category": "saude",
         "inStock": false
     },
     {
         "id": 6,
         "title": "Uma breve história do tempo",
         "author": "Stephen Hawking",
-        "category": "Física",
+        "category": "fisica",
         "inStock": true
     },
     {
         "id": 7,
         "title": "O que o sol faz com as flores",
         "author": "rupi kaur",
-        "category": "Poesia",
+        "category": "poesia",
         "inStock": true
     },
     {
         "id": 8,
         "title": "Eloquent JavaScript: a modern introduction to programming",
         "author": "Marijn Haverbeke",
-        "category": "Programação",
+        "category": "programacao",
         "inStock": false
     },
     {
         "id": 9,
         "title": "História da alimentação no Brasil",
         "author": "Luís da Câmara Cascudo",
-        "category": "Antropologia política e ciências sociais",
+        "category": "cienciasSociais",
         "inStock": false
     },
     {
         "id": 10,
         "title": "Cem anos de solidão",
         "author": "Gabriel García Márquez",
-        "category": "Clássicos de Ficção",
+        "category": "ficcao",
         "inStock": true
     }
 ]
