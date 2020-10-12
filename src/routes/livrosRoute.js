@@ -7,5 +7,6 @@ router.get('/categoria/:category', controller.getBooksByCategory)
 router.get('/:id', controller.getById);
 router.post('/', controller.postBooks);
 router.delete('/:id', controller.deleteBooks);
+router.put('/:id', controller.putBooks);
 
 module.exports = router;
