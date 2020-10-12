@@ -81,4 +81,31 @@ const putFuncionarios = (req, res) => {
   }
 };
 
-module.exports = { getAll, getById, postFuncionarios, deleteFuncionario, getEmployeesAge, putFuncionarios };
+const patchFuncionarios = (req, res) => {
+  const id = req.params.id;
+  const update = req.body;
+  console.log(update)
+
+  try {
+    const funcionarioASerModificado = funcionarios.find((funcionario) => funcionario.id == id);
+
+    //Ele vai buscar dentro do objeto funcionarioASerModificado atributos em que o nome coincida com os do objeto update, e vai substituir o valor
+
+    Object.keys(update).forEach((chave) => {
+      funcionarioASerModificado[chave] = update[chave]
+    })
+
+    fs.writeFile("./src/models/funcionarios.json", JSON.stringify(funcionarios), 'utf8', function (err) {
+      if (err) {
+        return res.status(424).send({ message: err });
+      }
+      console.log("Arquivo atualizado com sucesso!")
+    });
+
+    return res.status(200).send(funcionarios);
+  } catch (err) {
+    return res.status(424).send({ message: err });
+  }
+};
+
+module.exports = { getAll, getById, postFuncionarios, deleteFuncionario, getEmployeesAge, putFuncionarios, patchFuncionarios };

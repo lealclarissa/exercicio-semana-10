@@ -8,5 +8,6 @@ router.get('/:id', controller.getById);
 router.post('/', controller.postFuncionarios);
 router.delete('/:id', controller.deleteFuncionario);
 router.put('/:id', controller.putFuncionarios);
+router.patch('/:id', controller.patchFuncionarios);
 
 module.exports = router;
