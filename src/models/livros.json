@@ -1,1 +1,80 @@
-[{"id":1,"title":"Perto do coração selvagem","author":"Clarice Lispector","category":"romance","inStock":true},{"id":2,"title":"Mulheres que correm com os lobos","author":"Clarissa Pinkola Estés","category":["psicologia","sagrado feminino","feminismo"],"inStock":true},{"id":3,"title":"O conto da aia","author":"Margaret Atwood","category":"ficcao","inStock":true},{"id":4,"title":"Pequeno manual antirracista","author":"Djamila Ribeiro","category":"politica","inStock":true},{"id":5,"title":"Comunicação não-violenta: técnicas para aprimorar relacionamentos pessoais e profissionais","author":"Marshall Rosenberg","category":"saude","inStock":false},{"id":6,"title":"Uma breve história do tempo","author":"Stephen Hawking","category":"fisica","inStock":true},{"id":7,"title":"O que o sol faz com as flores","author":"rupi kaur","category":"poesia","inStock":true},{"id":8,"title":"Eloquent JavaScript: a modern introduction to programming","author":"Marijn Haverbeke","category":"programacao","inStock":false},{"id":9,"title":"História da alimentação no Brasil","author":"Luís da Câmara Cascudo","category":"cienciasSociais","inStock":false},{"id":10,"title":"Cem anos de solidão","author":"Gabriel García Márquez","category":"ficcao","inStock":true}]
+[
+    {
+        "id": 1,
+        "title": "A paixão segundo GH",
+        "author": "Clarice Lispector",
+        "category": [
+            "romance",
+            "ficcao",
+            "literatura brasileira"
+        ],
+        "inStock": false
+    },
+    {
+        "id": 2,
+        "title": "Mulheres que correm com os lobos",
+        "author": "Clarissa Pinkola Estés",
+        "category": [
+            "psicologia",
+            "sagrado feminino",
+            "feminismo"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 3,
+        "title": "O conto da aia",
+        "author": "Margaret Atwood",
+        "category": "ficcao",
+        "inStock": true
+    },
+    {
+        "id": 4,
+        "title": "Pequeno manual antirracista",
+        "author": "Djamila Ribeiro",
+        "category": "politica",
+        "inStock": true
+    },
+    {
+        "id": 5,
+        "title": "Comunicação não-violenta: técnicas para aprimorar relacionamentos pessoais e profissionais",
+        "author": "Marshall Rosenberg",
+        "category": "saude",
+        "inStock": false
+    },
+    {
+        "id": 6,
+        "title": "Uma breve história do tempo",
+        "author": "Stephen Hawking",
+        "category": "fisica",
+        "inStock": true
+    },
+    {
+        "id": 7,
+        "title": "O que o sol faz com as flores",
+        "author": "rupi kaur",
+        "category": "poesia",
+        "inStock": true
+    },
+    {
+        "id": 8,
+        "title": "Eloquent JavaScript: a modern introduction to programming",
+        "author": "Marijn Haverbeke",
+        "category": "programacao",
+        "inStock": false
+    },
+    {
+        "id": 9,
+        "title": "História da alimentação no Brasil",
+        "author": "Luís da Câmara Cascudo",
+        "category": "cienciasSociais",
+        "inStock": false
+    },
+    {
+        "id": 10,
+        "title": "Cem anos de solidão",
+        "author": "Gabriel García Márquez",
+        "category": "ficcao",
+        "inStock": true
+    }
+]

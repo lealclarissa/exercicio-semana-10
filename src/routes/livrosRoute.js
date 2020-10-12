@@ -8,5 +8,6 @@ router.get('/:id', controller.getById);
 router.post('/', controller.postBooks);
 router.delete('/:id', controller.deleteBooks);
 router.put('/:id', controller.putBooks);
+router.patch('/:id', controller.patchBooks);
 
 module.exports = router;

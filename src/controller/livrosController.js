@@ -57,13 +57,13 @@ const putBooks = (req, res) => {
 
     const livroASerModificado = livros.find((livro) => livro.id == id);
     console.log(livroASerModificado);
- 
+
     const livroAtualizado = req.body;
     console.log(livroAtualizado);
 
     const index = livros.indexOf(livroASerModificado);
     console.log(index);
- 
+
     livros.splice(index, 1, livroAtualizado);
     console.log(livros);
 
@@ -80,4 +80,29 @@ const putBooks = (req, res) => {
   }
 };
 
-module.exports = { getAllBooks, getById, postBooks, deleteBooks, getBooksByCategory, putBooks }
+const patchBooks = (req, res) => {
+  const id = req.params.id;
+  const atualizacao = req.body;
+  console.log(atualizacao)
+
+  try {
+    const livroModificado = livros.find((livro) => livro.id == id);
+
+    Object.keys(atualizacao).forEach((chave) => {
+      livroModificado[chave] = atualizacao[chave]
+    })
+
+    fs.writeFile("./src/models/livros.json", JSON.stringify(livros), 'utf8', function (err) {
+      if (err) {
+        return res.status(424).send({ message: err });
+      }
+      console.log("Arquivo atualizado com sucesso!")
+    });
+
+    return res.status(200).send(livros);
+  } catch (err) {
+    return res.status(424).send({ message: err });
+  }
+};
+
+module.exports = { getAllBooks, getById, postBooks, deleteBooks, getBooksByCategory, putBooks, patchBooks }
